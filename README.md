@@ -17,16 +17,9 @@ The mod is fully customizable via the in-game Mod Configuration menu. You can to
 - Dresser Drawing Fixes
 - **Cloud Registry:** Enable this to receive real-time updates and community-driven drawing improvements for various item mods.
 
-## 📦 Installation
-
-1. Install **tModLoader**.
-2. Search for "Improved Containers" in the Mod Browser.
-3. Download and Enable the mod.
-4. (Optional) Ensure "Use Cloud Registry" is enabled in the config for the best experience.
-
 ## 🤝 Compatibility
 
 Designed with compatibility in mind! This mod works alongside major content mods like Calamity and Thorium. The Cloud Registry ensures that new items added by other mods are rendered correctly as soon as fixes are available.
 
 ---
-*Developed with ❤️ for the Terraria community.*
+*Developed by n0vagang and gmail://soul with ❤️ for the Terraria community.*
