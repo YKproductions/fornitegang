@@ -1,25 +1,16 @@
-# Improved Containers
+Mob HP Slider
+Just a simple mod for Terraria that lets you scale enemy health on the fly. Whether you want a more "Souls-like" challenge or you're just tired of bullet sponges, you can tweak the HP percentages directly from the config.
 
-**Improved Containers** is a quality-of-life mod for Terraria designed to enhance the visual fidelity of storage and display furniture. If you've ever noticed that items in Item Frames, Weapon Racks, or Dressers look blurry or low-resolution, this mod is for you!
+What it does:
+Dynamic Scaling: Slide a bar to increase or decrease mob health globally.
+Boss Overrides: Bosses have their own separate scaling, so you can make them beefy without making every slime a tank.
+Remote Data: The mod can pull live HP overrides from a GitHub file (like bossdatadp.cs). This means I can update boss health values for balance without needing to push a whole new mod update every time.
+Town NPC Protection: Optional toggle to affect Town NPCs (if for some reason you want them to have 10k health).
+HP Floor: Set a minimum health value so enemies don't accidentally scale down to 1 HP and become jokes.
+How to use:
+Just hop into the in-game Mod Configuration menu. Everything is updated in real-time—you don't even need to restart your world for the changes to kick in.
 
-## 🚀 Features
+Compatibility:
+Should work fine with major content mods like Calamity or Thorium. The remote data system is designed to handle modded bosses as long as their internal names are added to the override list.
 
-- **High-Resolution Icons:** Replaces the default blurry rendering in Item Frames and Weapon Racks with crisp, high-fidelity sprites.
-- **Dresser Fixes:** Consistent visual upgrades across all display furniture.
-- **Cloud-Synced Fixes:** Features an optional **Cloud Registry** system that automatically fetches the latest drawing configurations for new items and compatibility patches without needing a mod update.
-- **Non-Destructive:** Uses safe IL-editing to override drawing logic—no changes are made to your world files or character data.
-
-## 🛠️ Configuration
-
-The mod is fully customizable via the in-game Mod Configuration menu. You can toggle:
-- Item Frame Drawing Fixes
-- Weapon Rack Drawing Fixes
-- Dresser Drawing Fixes
-- **Cloud Registry:** Enable this to receive real-time updates and community-driven drawing improvements for various item mods.
-
-## 🤝 Compatibility
-
-Designed with compatibility in mind! This mod works alongside major content mods like Calamity and Thorium. The Cloud Registry ensures that new items added by other mods are rendered correctly as soon as fixes are available.
-
----
-*Developed by n0vagang and gmail://soul with ❤️ for the Terraria community.*
+Developed with ❤️ for the Terraria community.
